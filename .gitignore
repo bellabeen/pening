@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+
+# Flask environment files
+instance/
+.env
+*.env
+.env.*
+
+# Logs
+*.log
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# SQLite database
+*.sqlite3
+*.db
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Exported files
+*.csv
+*.xlsx
+*.json
+
+# AWS credentials (if used outside .env)
+.aws/
+
+# Build artifacts
+build/
+dist/
+*.egg
